@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" xid="window" design="device:mobile" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cEVFNRv" class="cEVFNRv" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.cEVFNRv{background-color: rgb(50, 189, 96)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cEVFNRv" class="cEVFNRv"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p5d10f6cf137f401b81749600f4d105a6-iosstatusbar cEVFNRv" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cEVFNRv"> 
+    <div class="x-panel-top cEVFNRv" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEVFNRv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cEVFNRv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;美食推荐&quot;}" __cid="cEVFNRv"> 
+        <div class="x-titlebar-left cEVFNRv" __cid="cEVFNRv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cEVFNRv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cEVFNRv"> 
+            <i class="icon-chevron-left cEVFNRv" __cid="cEVFNRv"/>  
+            <span __cid="cEVFNRv" class="cEVFNRv"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cEVFNRv" __cid="cEVFNRv">美食推荐</div>  
+        <div class="x-titlebar-right  cEVFNRv" __cid="cEVFNRv">
+          <div class="empty cEVFNRv" __cid="cEVFNRv"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cEVFNRv" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEVFNRv"> 
+      <div class="x-control-group cEVFNRv" xid="controlGroup1" __cid="cEVFNRv"> 
+        <div class="x-control-group-title cEVFNRv" xid="controlGroupTitle1" __cid="cEVFNRv"> 
+          <span xid="span1" bind-text="data.val('title')" __cid="cEVFNRv" class="cEVFNRv"/> 
+        </div>  
+        <span bind-text="data.val('wDate')" __cid="cEVFNRv" class="cEVFNRv"/>  
+        <div bind-foreach="data.datas" __cid="cEVFNRv" class="cEVFNRv"> 
+          <p bind-text="val('content')" __cid="cEVFNRv" class="cEVFNRv"/> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cEVFNRv" class="cEVFNRv">.x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p5d10f6cf137f401b81749600f4d105a6-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
